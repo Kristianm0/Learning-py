@@ -1,9 +1,15 @@
-print ("Hol my name is krism")
-a = "a"
-b = "b"
-c = "c"
-name = "nombre"
-lastname = "apellido"
+##operadores de identidad 
+# in - se encuentra en
+# not in - no se encuentra en
 
-#for num in range (2, -5, -1):
-   # print (num, end=", ")
+krism = "Kristianm Colina"
+
+#print ("K" not in krism)
+
+a = 10 
+b = 10
+
+print (a is not float)
+
+## Se llamo a el var para confirmar si habia un numero.
+## Pero tambien se aprendio in y not in para verificar valores.
