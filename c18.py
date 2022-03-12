@@ -9,7 +9,7 @@ krism = "Kristianm Colina"
 a = 10
 b = 10
 
-print (float(a)
+print(float(a))
 
 ## Se llamo a el var para confirmar si habia un numero.
 ## Pero tambien se aprendio in y not in para verificar valores.
