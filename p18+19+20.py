@@ -30,13 +30,9 @@ print((hi1) + (na))
 #StrA = "".join(hi)
 #print(StrA)
 ## StrA is "abc"
-
-
-
-
 #####
 
 
 
 
-## Te quedastes buscando una lista para poner algo. Y seguir con el mini proyecto de unir lo que sabes.
+## No pude unir todo lo que aprendi en un solo proyecto, pero creo que fue por falta de creatividad y se conocimiento.
