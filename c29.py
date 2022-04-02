@@ -10,5 +10,12 @@ def waves():
     print ("How old are you")
     year = round(float(input()))
     print(f"Hi user: {name}, that have {year} year old")
+    print("""
+    Some else that you want tell me?
+    1) Yes i have to tell you something else 🖐️.
+    2) No i do not have to tell you something else 😊.
+    """)
+    if 
+    some = input()
 waves()
 
