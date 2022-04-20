@@ -34,6 +34,6 @@ def waves():
     else: 
         print("What is this? I dont know to do.")
 
-print("Hi my name is Krism and i have 12 years old and you?")
+print("Hi my name is Krism and i have 17 years old and you?")
 waves()
 
