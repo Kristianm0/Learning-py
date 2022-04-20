@@ -4,11 +4,6 @@
 
 # El input es para pedirles datos al usuarios, y que se tiene que almacenar en un var.
 
-from ast import Break
-from cgitb import reset
-from tracemalloc import reset_peak
-
-
 def waves():
     print("Your name")
     name = input()
@@ -31,7 +26,7 @@ def waves():
         input()
         print("Thanks for your honesty.")   
     elif ee == "2":
-        print("Ok, Thanks for yout honesty.")
+        print("Ok, Thanks for your honesty.")
     elif ee == "3":
         waves()
     elif ee == "4":
