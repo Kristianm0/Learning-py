@@ -22,6 +22,7 @@ else:
 
 ######## 👇 What is the number
 
+"""""
 def elder (n1, n2, n3):
     if n1 >= n2 and n1 >= n3:
         return n1
@@ -34,4 +35,4 @@ def elder (n1, n2, n3):
 
 nume = (elder(100, 66, 104))
 print(nume)
-
+"""
