@@ -10,6 +10,13 @@ days = {"Mo": "Monday", "Tu": "Tuesday", "We": "Wednesday"}
 #   for index in range(3):
 #      print(index, index)
 
+#for index in range(10):
+ #   print(index)
+  #  if index == 4:
+   #     break
+    #print(index)
+
 for index in range(10):
+    print(index)
     if index == 4:
-        break
+        continue
