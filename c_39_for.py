@@ -2,7 +2,18 @@
 
 days = {"Mo": "Monday", "Tu": "Tuesday", "We": "Wednesday"}
 
-for pw, value in days.items():
-    print(pw)
+
+#for pw, values in days:
+    #print(days)
+
+for index in range(10):
+    if index == 4:
+        print("You win")
+    else:
+        print("no")    
+
+print(len(days))
 
 #print(word)
+
+#print(range(5))
