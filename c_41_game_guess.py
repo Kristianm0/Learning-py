@@ -13,6 +13,8 @@ done = 0
 stop = 6
 
 #mesege
+
+
 print("Hi " + username + ",")
 print("You have to riddle the number that i am thinking bewteen " +  str(stop) + " and 1")
 print("Remenber that you have " + str(time) + " times")
@@ -43,6 +45,8 @@ while do <= time:
             print("📌 Try again you have " + str(done) + "/" + str(time) + " Times ")
         
         if done > 5: 
-            print("📌 You are a loser your oportunities. Game over 🐺.")
+            print("📌 You are a loser, you dont have more oportunities. Game over 🐺.")
+
+
 
 ###Taks: Fix the if and change to just show what have to show
