@@ -22,31 +22,54 @@ print("Remenber that you have " + str(time) + " times")
 # Generation a aleatori number
 guess = random.randint(1, stop)
 
+
+ 
 while do <= time:
 
     num = int(input("Try to guess: "))
-    
+
     if num == guess: 
-        print(username + " won 🚀!")
-        break
+        print(username + " won 🚀 The game have been finished!")
+        done = 0
+        print("""
+        What do you want?
+        A) Play again.
+        B) Finish the game.
+        """)
+        option = input(">>> ")
+
+        if option == "A":
+            print("📌 Try again, you have " + str(done) + "/" + str(time) + " Times ")
+            do = 0
+        if option == "B":
+            print("📌 You are a loser, you dont have more oportunities. Game over 🐺.")
+            break
+###
     else: 
         if num > guess: 
             print("📌Try with number more small")
-            
-        if num < guess:
-            print("📌 Try with number bigger")
-    do += 1
-
+    if num < guess:
+        print("📌 Try with number bigger")
+        do += 1
     if num != guess:
         print(username + " You loss")
-        done += 1
+        done += 1    
+###                   
+    if done > 5: 
+        done = 0
+        print("""
+        What do you want?
+        A) Play again.
+        B) Finish the game.
+        """)
+        option = input(">>> ")
 
-        if done < 5: 
-            print("📌 Try again you have " + str(done) + "/" + str(time) + " Times ")
-        
-        if done > 5: 
+        if option == "A":
+            print("📌 Try again, you have " + str(done) + "/" + str(time) + " Times ")
+            do = 0
+        if option == "B":
             print("📌 You are a loser, you dont have more oportunities. Game over 🐺.")
-
+            break
 
 
 ###Taks: Fix the if and change to just show what have to show
