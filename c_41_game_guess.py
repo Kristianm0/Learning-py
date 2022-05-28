@@ -71,5 +71,3 @@ while do <= time:
             print("📌 You are a loser, you dont have more oportunities. Game over 🐺.")
             break
 
-
-###Taks: Fix the if and change to just show what have to show
