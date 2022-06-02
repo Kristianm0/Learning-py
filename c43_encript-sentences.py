@@ -39,7 +39,6 @@ while the == 2:
         1) Yes.
         2) No.
         3) Play again.
-        4) Go to the menu.
         """)
 
     op = input(">>> ")
@@ -79,9 +78,8 @@ while the == 1:
 
         hii = input(">>> ")
         hii = hii.upper
+        if hii == ("B") or ("b"):
+            the = 1
         if hii == ("A") or ("a"):
             break
-        if hii == ("B") or ("b"):
-            print(var)
-
-####### Created the if to go to the menu or rest the game
+        

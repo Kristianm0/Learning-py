@@ -1,19 +1,38 @@
 ## Find error 
 
-try:
-    num = int(input("Give a number: "))
-    nume = 2
-    print(num / nume)
 
-except ZeroDivisionError as err:
-    print(err)
-    print("You can not division between 0")   
-except ValueError as err:
-    print(err)
-    print("Error, i dont know what is this")
+while True:
+    try:
+        print("Let's go to division your number 💣")
 
-else:
-    print("There isnt error")
+        print("Give me the first value")
+        num1 = int(input("👉 "))
 
-finally:
-    print("This is the end")
+        print("Give me the secound value")
+        num2 = int(input("👉 "))
+
+        print("Your result is 👇: ")
+        print(num1 / num2)
+
+    except ZeroDivisionError as err:
+        print(err)
+        print("You can not division between 0")   
+    except ValueError as err:
+        print(err)
+        print("Error, i dont know what is this")
+
+    else:
+        print("Your division has been done succefully 🤝")
+        
+    print("""Do you wants to play again
+    1) Yes.
+    2) No.
+    """)
+    op = input("👉 ")
+    
+    if op == 2:
+        break
+
+
+
+
