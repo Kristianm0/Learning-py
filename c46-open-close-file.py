@@ -1,7 +1,12 @@
 # Open and close file
 
-study = open("stu.txt", "r+")
-for est in study:
-    print(est)
-print(study.readlines())
-study.close()
+#def h:
+ #   study = open("stu.txt", "r+")
+  #  print(study.write("\nMarcela - Design"))
+   # study.close()
+
+
+### Remove files
+#stui = open("hola.py", "a")
+import os 
+os.remove("hola.py")
