@@ -20,7 +20,13 @@ while True:
     except ValueError as err:
         print(err)
         print("Error, i dont know what is this")
+    except OverflowError as err:
+        print(err)
+    except
+    except TypeError as err:
+        print(err)
 
+    
     else:
         print("Your division has been done succefully 🤝")
         
@@ -29,10 +35,13 @@ while True:
     2) No.
     """)
     op = input("👉 ")
-    
-    if op == 2:
+
+    if op == "1"and "Yes":
+        True
+    if op == "2" and "No":
         break
 
 
 
 
+############ Show the posibles error
