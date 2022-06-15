@@ -11,3 +11,4 @@ grilla = [
 for num in grilla:
     for col in num:
         print(num)
+        
