@@ -28,12 +28,21 @@ class Planeta:
         self.color = color
         self.name = name
         self.years = years
+        self.is_active = True
+
+    def deactivate(self):
+        self.is_active = False
 
 new_planet = Planeta("Blue", "Jamoka", 738.911)
-print(new_planet.name)
+#print(new_planet.name.upper())
 
 new_planet2 = Planeta("Red", "Jorodo", 932.239)
-print(new_planet2.name)
+#print(new_planet2.name.upper())
 
 new_planet3 = Planeta("Orange", "Jakatalina", 223.121)
-print(new_planet3.name)
+#print(new_planet3.is_active)
+
+new_planet3.deactivate()
+#print(new_planet3.is_active)
+
+
