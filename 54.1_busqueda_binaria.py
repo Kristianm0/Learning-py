@@ -41,6 +41,7 @@ def buscar_valor(valor):
 
 while lo == "OK":
     print("""
+Elige una opcion 😉:
     1. Buscar valor.
     2. Agregar valor. 
     3. Ver la lista.
@@ -58,6 +59,7 @@ while lo == "OK":
         print("¿Que numero quieres agregar?")
         add = int(input(">>> "))
         add = lista.append(add)
+        print("El numer fue agregado de manera exitosa.")
     
     elif user == 3:
         print("Esta es la lista")
@@ -66,3 +68,6 @@ while lo == "OK":
     elif user == 4:
         print("El programa esta apagado.")
         break
+
+    else: 
+        print("Elige una opcion #️⃣")
